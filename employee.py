@@ -101,3 +101,4 @@ class student:
 
 s1 = student("tonny", [78, 67,76])
 s1.get_avg()
+
