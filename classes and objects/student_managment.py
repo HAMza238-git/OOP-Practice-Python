@@ -28,6 +28,7 @@ class Student:
          print(self.name, "is pass")
         else:
          print(self.name, "is fail")
+         
     def update_marks(self, new_marks):
        self.marks = new_marks
        print(self.marks)
