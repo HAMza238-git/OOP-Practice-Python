@@ -112,21 +112,46 @@
 # movies.append(mov3)
 # print(movies)
 
-list1 = [1, 2, 1]
-list2 = [1, 2, 2]
-copy_list1 = list1.copy()
-copy_list2 = list2.copy()
+# list1 = [1, 2, 1]
+# list2 = [1, 2, 2]
+# copy_list1 = list1.copy()
+# copy_list2 = list2.copy()
 
-copy_list1.reverse()
-copy_list2.reverse()
+# copy_list1.reverse()
+# copy_list2.reverse()
 
-if list1 == copy_list1:
-    print("its palidrom ")
-else:
+# if list1 == copy_list1:
+#     print("its palidrom ")
+# else:
 
-    print("its not palidrom")
+#     print("its not palidrom")
 
-if list2 == copy_list2:
-    print("its palidrom")
-else:
-    print("its not palidram")
+# if list2 == copy_list2:
+#     print("its palidrom")
+# else:
+#     print("its not palidram")
+
+fruits = set()
+
+fruits.add("apple")
+fruits.add("banana")
+fruits.add("orange")
+
+print(fruits)
+
+if "apple" in fruits:
+    print("apple is in fruit")
+
+fruits.remove("orange")
+print(fruits)
+
+fruits.add("mango")
+print(fruits)
+
+print("lenght of fruits", len(fruits))
+
+for fruit in fruits:
+    print(fruit)
+
+fruits.clear()
+print(fruits)

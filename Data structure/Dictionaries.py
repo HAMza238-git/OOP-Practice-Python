@@ -1,31 +1,24 @@
 fruits = {}
+fruits["apple"] = 120
+fruits["banana"] = 90
+fruits["orange"] = 140
 
-fruits["Apple"] = 120
-fruits["Banana"] = 80
-fruits["Orange"] = 150
-
-print("Fruits:", fruits)
-
-print("Price of Apple:")
-print(fruits["Apple"])
-
-fruits["Banana"] = 90
-print("After Updating Banana:")
 print(fruits)
 
-fruits["Mango"] = 200
-print("After Adding Mango:")
+fruits["banana"] = 100
+print (fruits)
+
+fruits["mango"] = 200
 print(fruits)
 
-del fruits["Orange"]
-print("After Removing Orange:")
+del fruits["orange"]
 print(fruits)
 
-print("Total Fruits:", len(fruits))
+print("fruits", len(fruits))
+print(fruits)
 
-print("Fruit Prices:")
 for fruit, price in fruits.items():
     print(fruit, ":", price)
 
 fruits.clear()
-print("\nAfter Clearing:", fruits)
+print(fruits)
