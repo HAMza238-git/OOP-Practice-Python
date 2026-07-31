@@ -1,27 +1,24 @@
 fruits = set()
 
-fruits.add("Apple")
-fruits.add("Banana")
-fruits.add("Orange")
-fruits.add("Apple")      
-fruits.add("Banana")    
+fruits.add("apple")
+fruits.add("banana")
+fruits.add("orange")
 
-print("Fruits:", fruits)
+print(fruits)
 
-if "Apple" in fruits:
-    print("Apple is available")
+if "apple" in fruits:
+    print("apple is in fruit")
 
-fruits.remove("Banana")
-print("After removing Banana:", fruits)
+fruits.remove("orange")
+print(fruits)
 
-fruits.add("Mango")
-print("After adding Mango:", fruits)
+fruits.add("mango")
+print(fruits)
 
-print("Total Fruits:", len(fruits))
+print("lenght of fruits", len(fruits))
 
-print("All Fruits:")
 for fruit in fruits:
     print(fruit)
 
 fruits.clear()
-print("\nAfter clearing:", fruits)
+print(fruits)

@@ -1,0 +1,15 @@
+numbers = [2, 5, 3, 2, 7, 3, 2]
+list2 = []
+
+for num in numbers:
+    if num not in list2:
+        list2.append(num)
+
+for item in list2:
+    count = 0
+
+    for num in numbers:
+        if num == item:
+            count += 1
+
+    print(item, "->", count)
